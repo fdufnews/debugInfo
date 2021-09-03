@@ -52,7 +52,7 @@ Sets timeEnd to the current time. Use at the end of the piece of code to time.
 Prints the elapsed time  
 
 
-Beware that timeStart and timeEnd are global variables
+Beware that timeStart and timeEnd are global variables, but each level of debug has its own set of variables,
 so time measurements for one level of messages shall not be nested
 
 
